@@ -1,0 +1,32 @@
+.popup__container {
+	position: fixed;
+	top: 30%;
+	left: 35%;
+	display: flex;
+	height: 330px;
+	width: 430px;
+	background-color: white;
+	color: black;
+	flex-direction: column;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+
+.popup-profile__container {
+	position: relative;
+	width: 430px;
+	background-color: white;
+	padding: 35px 0 37px;
+	box-shadow: 0px 0px 25px rgb(0 0 0 / 15%);
+	border-radius: 10px;
+	height: 258px;
+}
+
+
+@media screen and (max-width: 575px) {
+	.popup-profile__container {
+		width: 282px;
+		padding-top: 25px;
+		padding-bottom: 25px;
+	}
+}
